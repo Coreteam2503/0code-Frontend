@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jupyter-quiz-frontend/static/css/main.d788e512.css",
+    "main.js": "/jupyter-quiz-frontend/static/js/main.e5378bbb.js",
+    "index.html": "/jupyter-quiz-frontend/index.html",
+    "main.d788e512.css.map": "/jupyter-quiz-frontend/static/css/main.d788e512.css.map",
+    "main.e5378bbb.js.map": "/jupyter-quiz-frontend/static/js/main.e5378bbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d788e512.css",
+    "static/js/main.e5378bbb.js"
+  ]
+}
