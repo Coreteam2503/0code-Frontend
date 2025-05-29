@@ -20,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy-subtree": "git subtree push --prefix build origin gh-pages",
+    "deploy-build": "npm run build && git add . && git commit -m \"Update build\" && npm run deploy-subtree"
   },
   "eslintConfig": {
     "extends": [
@@ -41,8 +41,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8080",
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "proxy": "http://localhost:8080"
 }
